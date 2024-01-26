@@ -1,3 +1,4 @@
+/*
 document.addEventListener('DOMContentLoaded', () => {
     const numeros = document.querySelector('.numero');
     const conte = document.querySelector('.contar');
@@ -6,21 +7,36 @@ document.addEventListener('DOMContentLoaded', () => {
     const multiplica = document.querySelector('.multiplicar');
     const divide = document.querySelector('.dividir');
     const apaga = document.querySelector('.apagar');
+    const imprime = document.querySelector('.box');
 
     let arrN = [];
 
+    //está função conta o valor de 7 
+    function Numb7(){
+        for(let i= 0; i<arrN.length; i++){
+            imprime.textContent = Numb7;
+            console.log(arrN[i])
+        };
+        
+    };
+
+    // a função abaixo capitura o meu valor de 7
     function valor() {
         const numero = parseInt(numeros.value); 
         arrN.push(numero);
-        impNumb7();
-    }
+        Numb7();
+    };
 
-    function impNumb7(){
-        for(let i= 0; i<arrN.length; i++){
-            console.log(arrN[0])
-        }
-    }
-
+    window.onload = Numb7;
     numeros.addEventListener('click', valor); 
-
 });
+*/
+
+function insert (num){
+    document.getElementById('box').innerHTML = num;
+     
+};
+
+function elimine(close){
+   
+}

@@ -13,27 +13,27 @@
     <div class="container">
 
         <div class="caixa">
-            <input class="box" type="text" placeholder="Resultado" disabled>
+            <p id="box" type="text"></p> 
         </div>
 
         <div class="valores">
-            <input class="apagar" type="button" value="C">
+            <input class="apagar" onclick="elimine()" type="reset" value="C">
             <input class="perce" type="button" value="%">
             <input class="arroba" type="button" value="@">
             <input class="dividir" type="button" value="/">
-            <input class="numero" type="button" value="7">
-            <input class="numero" type="button" value="8">
-            <input class="numero" type="button" value="9">
+            <input class="numero"onclick="insert('7')"type="button" value="7" >
+            <input class="numero"onclick="insert('8')"type="button" value="8">
+            <input class="numero"onclick="insert('9')"type="button" value="9">
             <input class="multiplicar" type="button" value="x">
-            <input class="numero" type="button" value="4">
-            <input class="numero" type="button" value="5">
-            <input class="numero" type="button" value="6">
+            <input class="numero"onclick="insert('4')" type="button" value="4">
+            <input class="numero"onclick="insert('5')" type="button" value="5">
+            <input class="numero"onclick="insert('6')" type="button" value="6">
             <input class="tirar" type="button" value="-">
-            <input class="numero" type="button" value="1">
-            <input class="numero" type="button" value="2">
-            <input class="numero" type="button" value="3">
+            <input class="numero"onclick="insert('1')" type="button" value="1">
+            <input class="numero"onclick="insert('2')" type="button" value="2">
+            <input class="numero"onclick="insert('3')" type="button" value="3">
             <input class="somar" type="button" value="+">
-            <input class="numero" type="button" value="0">
+            <input class="numero"onclick="insert('0')" type="button" value="0">
             <input class="virg" type="button" value=",">
             <input class="contar" type="button" value="=">
         </div><!--valores-->
