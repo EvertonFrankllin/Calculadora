@@ -1,0 +1,261 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./imagens/fundo.jpg);
+    
+}
+.container{
+    background-color: #503535;
+    position: relative;
+    border: 1px solid rgb(36, 27, 44);
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 200px;
+    box-shadow: #201717;
+}
+
+.caixa{
+    box-shadow: none;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    margin: 0px 0 10px 10px ;
+}
+
+.box{
+    
+    outline: none;
+    height: 50px;
+    margin-top: 10px;
+    width: 90%;
+}
+.box::placeholder{
+    padding-right: 10px;
+    margin-top: 50px;
+    text-align: right;
+    color: #000;
+    opacity: 0.4;
+    font-size: 12px;
+}
+
+.numero{
+    background-color: rgb(221, 221, 221);
+    border-style: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 3px;
+    width: 40px;
+    height: 30px;
+}
+.numero:hover{
+    color: #5a5a5a;
+    background-color: rgb(134, 124, 124);
+}
+.numero:active{
+    color: white;
+    background-color: rgb(73, 66, 66);
+    
+}
+/*Botão de = para dar o valor*/
+.contar{
+    background-color: rgb(221, 221, 221);
+    border-style: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 3px;
+    width: 40px;
+    height: 30px;
+}
+.contar:hover{
+    color: #5a5a5a;
+    background-color: rgb(134, 124, 124);
+}
+.contar:active{
+    color: white;
+    background-color: rgb(73, 66, 66);
+    
+}
+
+/*botão de somar*/
+.somar{
+    background-color: rgb(221, 221, 221);
+    border-style: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 3px;
+    width: 40px;
+    height: 30px;
+}
+.somar:hover{
+    color: #5a5a5a;
+    background-color: rgb(134, 124, 124);
+}
+.somar:active{
+    color: white;
+    background-color: rgb(73, 66, 66);
+    
+}
+
+/*Botão de tirar*/
+.tirar{
+    background-color: rgb(221, 221, 221);
+    border-style: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 3px;
+    width: 40px;
+    height: 30px;
+}
+.tirar:hover{
+    color: #5a5a5a;
+    background-color: rgb(134, 124, 124);
+}
+.tirar:active{
+    color: white;
+    background-color: rgb(73, 66, 66);
+    
+}
+
+/*Borão de Multiplicar*/
+.multiplicar{
+    background-color: rgb(221, 221, 221);
+    border-style: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 3px;
+    width: 40px;
+    height: 30px;
+}
+.multiplicar:hover{
+    color: #5a5a5a;
+    background-color: rgb(134, 124, 124);
+}
+.multiplicar:active{
+    color: white;
+    background-color: rgb(73, 66, 66);
+    
+}
+/*Botão de dividir*/
+
+.dividir{
+    background-color: rgb(221, 221, 221);
+    border-style: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 3px;
+    width: 40px;
+    height: 30px;
+}
+.dividir:hover{
+    color: #5a5a5a;
+    background-color: rgb(134, 124, 124);
+}
+.dividir:active{
+    color: white;
+    background-color: rgb(73, 66, 66);
+    
+}
+
+/*Botão de apagar*/
+
+.apagar{
+    background-color: rgb(221, 221, 221);
+    border-style: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 3px;
+    width: 40px;
+    height: 30px;
+}
+.apagar:hover{
+    color: #5a5a5a;
+    background-color: rgb(134, 124, 124);
+}
+.apagar:active{
+    color: white;
+    background-color: rgb(73, 66, 66);
+    
+}
+/*porcentagem*/
+
+.perce{
+    background-color: rgb(221, 221, 221);
+    border-style: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 3px;
+    width: 40px;
+    height: 30px;
+}
+.perce:hover{
+    color: #5a5a5a;
+    background-color: rgb(134, 124, 124);
+}
+.perce:active{
+    color: white;
+    background-color: rgb(73, 66, 66);
+    
+}
+
+/*Arroba*/
+
+.arroba{
+    background-color: rgb(221, 221, 221);
+    border-style: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 3px;
+    width: 40px;
+    height: 30px;
+}
+.arroba:hover{
+    color: #5a5a5a;
+    background-color: rgb(134, 124, 124);
+}
+.arroba:active{
+    color: white;
+    background-color: rgb(73, 66, 66);
+    
+}
+
+/*Virgula*/
+
+.virg{
+    background-color: rgb(221, 221, 221);
+    border-style: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 3px;
+    width: 40px;
+    height: 30px;
+}
+.virg:hover{
+    color: #5a5a5a;
+    background-color: rgb(134, 124, 124);
+}
+.virg:active{
+    color: white;
+    background-color: rgb(73, 66, 66);
+    
+}
+
+
+.valores{
+    margin: 70px 0 10px 10px ;
+}
