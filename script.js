@@ -55,5 +55,10 @@ function contar(){
 };
 contar();
 
+const box = document.getElementById('box').innerHTML;
+  document.addEventListener('keydown', function(event) {
+      const tecla = event.key;
+    box.innerHTML += tecla + ' ';
+});
 
    
