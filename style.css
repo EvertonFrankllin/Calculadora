@@ -26,21 +26,21 @@ body{
     position: absolute;
     width: 100%;
     margin: 0px 10 0px 10px ;
-    overflow: hidden;
+    overflow:hidden;
 }
 
 #box {
-    white-space:pre-line;
+    white-space:wrap;
     background-color: rgba(255, 228, 196, 0.877);
     font-weight: bold;
     font-size: 15px;
-    padding: 10px;
+    padding: 10px 10px 10px 0px ;
     text-decoration: none;
     height: 50px;
     margin-top: 10px;
     width: 90%;
     text-align: right;
-    overflow: hidden;
+    overflow:hidden;
 }
 
 
