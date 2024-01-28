@@ -6,9 +6,10 @@
 body{
     background-image: url(./imagens/fundo.jpg);
     
+    
 }
 .container{
-    background-color: #503535;
+    background-color: #000000b2;
     position: relative;
     border: 1px solid rgb(36, 27, 44);
     display: flex;
@@ -25,12 +26,13 @@ body{
     position: absolute;
     width: 100%;
     margin: 0px 10 0px 10px ;
+    overflow: hidden;
 }
 
 #box {
-    background-color: bisque;
+    white-space:pre-line;
+    background-color: rgba(255, 228, 196, 0.877);
     font-weight: bold;
-    opacity: 0.5;
     font-size: 15px;
     padding: 10px;
     text-decoration: none;
@@ -38,6 +40,7 @@ body{
     margin-top: 10px;
     width: 90%;
     text-align: right;
+    overflow: hidden;
 }
 
 
@@ -70,6 +73,8 @@ body{
     margin-top: 3px;
     width: 85px;
     height: 30px;
+    font-size: large;
+    font-weight: bold;
 }
 .contar:hover{
     color: #5a5a5a;
@@ -167,7 +172,7 @@ body{
 
 /*Botão de apagar*/
 
-.apagar{
+.clearn{
     background-color: rgb(221, 221, 221);
     border-style: none;
     border-radius: 8px;
@@ -176,33 +181,35 @@ body{
     margin-top: 3px;
     width: 40px;
     height: 30px;
+    font-weight: bold
+}
+.clearn:hover{
+    color: #5a5a5a;
+    background-color: rgb(134, 124, 124);
+}
+.clearn:active{
+    color: white;
+    background-color: rgb(73, 66, 66);
+}
+/*apagar*/
+
+.apagar{
+    background-color: rgb(221, 221, 221);
+    background-image: url(/imagens/back.png);
+    border-style: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 3px;
+    width: 40px;
+    height: 30px;
+    font-weight: bold;
 }
 .apagar:hover{
     color: #5a5a5a;
     background-color: rgb(134, 124, 124);
 }
 .apagar:active{
-    color: white;
-    background-color: rgb(73, 66, 66);
-    
-}
-/*porcentagem*/
-
-.perce{
-    background-color: rgb(221, 221, 221);
-    border-style: none;
-    border-radius: 8px;
-    text-decoration: none;
-    cursor: pointer;
-    margin-top: 3px;
-    width: 40px;
-    height: 30px;
-}
-.perce:hover{
-    color: #5a5a5a;
-    background-color: rgb(134, 124, 124);
-}
-.perce:active{
     color: white;
     background-color: rgb(73, 66, 66);
     
@@ -232,7 +239,7 @@ body{
 
 /*Virgula*/
 
-.virg{
+.ponto{
     background-color: rgb(221, 221, 221);
     border-style: none;
     border-radius: 8px;
@@ -241,12 +248,13 @@ body{
     margin-top: 3px;
     width: 40px;
     height: 30px;
+    font-weight:bold ;
 }
-.virg:hover{
+.ponto:hover{
     color: #5a5a5a;
     background-color: rgb(134, 124, 124);
 }
-.virg:active{
+.ponto:active{
     color: white;
     background-color: rgb(73, 66, 66);
     

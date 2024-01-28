@@ -33,10 +33,27 @@ document.addEventListener('DOMContentLoaded', () => {
 */
 
 function insert (num){
-    document.getElementById('box').innerHTML = num;
-     
+    var numero = document.getElementById('box').innerHTML ;
+    document.getElementById('box').innerHTML = numero + num;
+   
 };
 
-function elimine(close){
+function Clean(){
+    document.getElementById('box').innerHTML = '';
+};
+
+function back(){
+   var apagar = document.getElementById('box').innerHTML;
+   document.getElementById('box').innerHTML = apagar.slice(0, -1);
+};
+
+function contar(){
+    var visor =  document.getElementById('box').innerHTML;    
+    if(visor){
+        document.getElementById('box').innerHTML = eval(visor);
+    }
+};
+contar();
+
+
    
-}
