@@ -8,7 +8,7 @@ Uma simples calculadora web!
 
  ![Alt text](image.png)
 
- ##Como Usar
+ ## Como Usar
  
  1. Abra o arquivo `index.html` em seu navegador.
 2. Toque nos botões com os Números desejados.
